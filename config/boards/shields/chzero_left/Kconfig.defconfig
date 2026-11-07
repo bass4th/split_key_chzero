@@ -1,0 +1,6 @@
+if SHIELD_CHZERO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "CHZero Left"
+
+endif
