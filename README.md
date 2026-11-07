@@ -37,7 +37,9 @@ SHIFT Z  X  C  V  B
 5. 빌드된 왼쪽 `.uf2` 파일을 해당 드라이브에 복사합니다.
 6. 텍스트 편집기에서 각 키를 한 번씩 눌러 배열을 확인합니다.
 
-현재 생성된 UF2는 없습니다. 로컬에서 행렬 좌표와 키 개수만 검사했으며 실제 ZMK 컴파일 및 하드웨어 동작 확인은 남아 있습니다.
+GitHub Actions 빌드 성공: https://github.com/bass4th/split_key_chzero/actions/runs/42360634814
+
+생성 파일: `firmware/left/chzero_left-nice_nano_v2-zmk.uf2` (로컬 다운로드). UF2 블록 형식을 검사했습니다. 실제 하드웨어 입력 확인은 남아 있습니다.
 키가 반대로 나오면 matrix transform 순서를, 특정 행/열 전체가 작동하지 않으면 해당 GPIO 배정을 확인합니다.
 OLED의 SDA/SCL과 컨트롤러 모델은 확인 후 추가합니다.
 
